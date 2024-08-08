@@ -9,46 +9,157 @@
   <body>
     <%- include('./layout/header'); -%>
 
-    <h1 class="index-title">我是首頁</h1>
-
-    <div class="card" style="width: 18rem">
-      <img src="../assets/images/cat.jpg" class="card-img-top" alt="cat" />
-      <div class="card-body">
-        <h5 class="card-title">卡片元件</h5>
-        <p class="card-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, odit, iusto odio assumenda alias id
-          nobis earum!
-        </p>
-      </div>
-    </div>
-
-    <!-- Modal 按鈕 -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-      打開 modal
-    </button>
-
-    <!-- Modal 元件 -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Modal 標題</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">內容</div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
-            <button type="button" class="btn btn-primary">確定</button>
+    <main>
+      <div class="bg-black py-18 pb-8">
+        <div class="container">
+          <div class="d-flex align-items-center gap-6">
+            <img src="../assets/images/people.png" alt="WILLIAM LEE">
+            <div class="">
+                <h2 class="text-primary fs-16 lh-base">Hi<br>I’m a front-end<br>developer</h2>
+                <div class="text-end">
+                    <h1 class="text-tertiary fs-32 lh-base">William</h1>
+                    <a class="btn btn-primary rounded-5" href="#">
+                      <div class="d-flex justify-content-center align-items-center gap-1">
+                        <p style="width: 109px;">contact me</p>
+                        <img src="../assets/images/arrow_outward.svg" alt="arrow">
+                      </div>
+                    </a>
+                </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+
+      <div style="background-image: url(../assets/images/background-img.png);">
+        <div class="container py-40">
+          <div class="d-flex justify-content-between gap-6">
+            <div class="text-primary">
+                <h3 class="fs-16 lh-base pb-9">Introduction</h3>
+                <p class="fs-6 pb-8">Hi, I'm William Lee, a Front-End Developer with a passion for building beautiful and responsive websites that provide an optimal user experience.</p>
+                <div class="d-flex gap-4">
+                    <img src="../assets/images/sparkle-sm.png" alt="sparkle-sm">
+                    <img src="../assets/images/sparkle-sm.png" alt="sparkle-sm">
+                    <img src="../assets/images/sparkle-sm.png" alt="sparkle-sm">
+                </div>
+            </div>
+            <div class="d-flex justify-content-between gap-6">
+                <img src="../assets/images/sparkle.png" alt="sparkle">
+                <img src="../assets/images/photographer.png" alt="photographer">
+                <img src="../assets/images/people-2.png" alt="WILLIAM LEE">
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      <div class="container py-40">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-6">
+              <ul class="row row-cols-2 g-6">
+                  <li class="col">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title lh-base">01</h5>
+                        <h5 class="card-title lh-base">Attention to Detail</h5>
+                        <p class="card-text">Meticulous code analysis and optimization.</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title lh-base">02</h5>
+                        <h5 class="card-title lh-base">Adaptability</h5>
+                        <p class="card-text">Swift learning of new technologies.</p>
+                      </div>
+                    </div>
+                  </li>
+                  </li>
+                  <li class="col">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title lh-base">03</h5>
+                        <h5 class="card-title lh-base">Problem Solver</h5>
+                        <p class="card-text">Identifying and resolving issues.</p>
+                      </div>
+                    </div>
+                  </li>
+                  </li>
+                  <li class="col">
+                    <div class="card">
+                      <div class="card-body">
+                        <h5 class="card-title lh-base">04</h5>
+                        <h5 class="card-title lh-base">Team Player</h5>
+                        <p class="card-text">Collaborates and shares ideas.</p>
+                      </div>
+                    </div>
+                  </li>
+                  </li>
+              </ul>
+          </div>
+          <div class="col-5">
+              <h3 class="fs-16 mb-9">About Me</h3>
+              <p class="fs-6">With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery, and React. I have a strong understanding of user experience design and accessibility. I'm always learning new technologies and techniques to stay up-to-date in the field.</p>
+          </div>
+        </div>
+      </div>
+      <!-- CONTACT -->
+      <div class="bg-gradient-y py-24">
+        <div class="container">
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center gap-4">
+              <h2 class="text-primary fs-16 lh-base">CONTACT ME</h2>
+              <img src="../assets/images/trending_flat_black_24dp 1.png" alt="trending_flat">
+            </div>
+            <ul class="icon d-flex gap-5">
+              <li>
+                <a class="" href="#"><img src="../assets/images/discord.png" class="icon-img img-fluid" alt="discord"></a>
+              </li>
+              <li>
+                <a class="" href="#"><img src="../assets/images/instagram.png" class="icon-img img-fluid" alt="instagram"></a>
+              </li>
+              <li>
+                <a class="" href="#"><img src="../assets/images/message.png" class="icon-img img-fluid" alt="message"></a>
+              </li>
+            </ul>
+        </div>
+
+        </div>
+      </div>
+      <!-- Projects -->
+      <div class="container py-40">
+        <div class="row">
+          <h2 class="col-7 fs-16 lh-base ms-auto">My Projects</h2>
+          <div class="col-12">
+            <div class="row">
+              <div class="col-4">
+                <img src="../assets/images/Rectangle 10.png" class="img-fluid" alt="Rectangle">
+              </div>
+              <div class="col-8">
+                <div class="d-flex flex-column gap-7">
+                  <div class="d-flex gap-6">
+                    <img src="../assets/images/Rectangle 15.png" class="img-fluid" alt="Rectangle">
+                    <div class="d-flex flex-column justify-content-between align-items-start">
+                        <p>I've worked on a variety of websites, including e-commerce sites, blogs, and landing pages. I take pride in creating clean, efficient, and user-friendly code.</p>
+                        <a href="#" class="btn btn-black rounded-5">
+                          <div class="d-flex justify-content-center align-items-center gap-1">
+                            <p style="width: 109px;">see more</p>
+                            <img src="../assets/images/arrow_outward-white.png" class="img-fluid" alt="arrow_outward">
+                          </div>
+                        </a>                     
+                    </div>
+                  </div>
+                  <div class="d-flex gap-6">
+                      <img src="../assets/images/Rectangle 14.png" class="img-fluid" alt="Rectangle">
+                      <img src="../assets/images/Rectangle 29.png" class="img-fluid" alt="Rectangle">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
 
     <%- include('./layout/footer'); -%>
 

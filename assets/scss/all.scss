@@ -2,14 +2,15 @@
 @import "../../node_modules/bootstrap/scss/functions";
 
 //custom utils
-@import './utils/variables';
+@import "./utils/variables";
+@import "/assets/scss/base/font";
 
-//layout
-@import './layout/header.scss';
-@import './layout/footer.scss';
+//layout(盡量不要有)
+@import "./layout/header.scss";
+@import "./layout/footer.scss";
 
 //pages (盡量不要有)
-@import './pages/index';
+@import "./pages/index";
 
 // @import "../../node_modules/bootstrap";  //★重要載入全部檔案
 //==5.3版start==
@@ -22,6 +23,7 @@
 
 //custom utilities
 @import "../scss/utils/utilities";
+
 
 
 // Layout & components
@@ -63,3 +65,8 @@
 // Utilities
 @import "../../node_modules/bootstrap/scss/utilities/api";
 //==5.3版end==
+
+//custom
+@import "/assets/scss/base/base";
+@import "./components/bg-gradient-y";
+@import "./components/icon";

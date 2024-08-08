@@ -1,0 +1,3 @@
+.bg-gradient-y {
+    @include gradient-y($start-color:#050014, $end-color:#01021EE3, $start-percent: 0%, $end-percent: 100%);
+}
